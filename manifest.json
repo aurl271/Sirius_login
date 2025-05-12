@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "Sirius自動ログイン",
+    "version": "1.0",
+    "key":"MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApM7m406K9jz0yiCQdxVFGK/DQ38TxzRftL46LpBMAXrfGEOwEm6rO459UThaPQHVFFa75oqyUYtbWgXdkZdwKZmYz4FYwF3xZtV9XB9/VVU2EOi4et7mQF/sr3BnfGZmIhQOzXDUWvbqs5kf+mjjmaEJSdra4gNBf7zGw70pBeiSs7XQvnkuTX+1nk2cbzuwRZ7P9+YH4O/dEtnNE44ahi0lkpuPr2vegcpljoR36GZHMoFAFp5PThQYGx1Jn4xYSykZUOgWyCDHbrfRBiAb5Ce4flMgfuMSvTCNHTW8g/euG+ZDOA8Vuq4rT4MT6asnyt9MtVWvZeaAuQrA0YNT8QIDAQAB",
+    "permissions": [
+        "identity",
+        "scripting"
+    ],
+    "oauth2": {
+        "client_id": "~~.apps.googleusercontent.com",
+        "scopes": ["https://www.googleapis.com/auth/gmail.readonly"]
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_scripts": [
+        {
+            "matches": ["https://tuat.ex-tic.com/auth/session"],
+            "js": ["session.js"]
+        },
+        {
+            "matches": ["https://tuat.ex-tic.com/auth/session/second_factor"],
+            "js": ["second_factor.js"]
+        }
+    ],
+    "host_permissions": ["https://tuat.ex-tic.com/auth/session","https://tuat.ex-tic.com/auth/session/second_factor"]
+}
