@@ -1,15 +1,11 @@
 # シリウス自動ログイン
 ## 導入方法
 ### 1.ダウンロード
-githubのページ(https://github.com/aurl271/Sirius_login/tree/master )の右上にある緑色のCodeをクリックし、Download Zipでダウンロードして解凍
+githubのページ(https://github.com/aurl271/Sirius_login )の右上にある緑色のCodeをクリックし、Download Zipでダウンロードして解凍
 ![github](images/github.png)
 ### 2.sesion.jsの編集
-解凍したフォルダにあるsession.jsの1行目の
-` document.getElementById('identifier').value = "hogehoge";` 
-のhogehogeをTUAT-ID(s~~v)に変更
-4行目の
-` document.getElementById('password').value = "fugafuga";`
-のfugafugaをパスワードに変更
+解凍したフォルダにあるsession.jsの1行目の` document.getElementById('identifier').value = "hogehoge";` のhogehogeをTUAT-ID(s~~v)に変更
+4行目の` document.getElementById('password').value = "fugafuga";`のfugafugaをパスワードに変更
 ### 3.拡張機能として追加
 メニューバーから「拡張機能を管理」をクリックし
 ![Extensions1](images/Extensions1.png)
