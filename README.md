@@ -1,7 +1,7 @@
 # シリウス自動ログイン
 ## 導入方法
 ### 1.ダウンロード
-githubのページ(https://github.com/aurl271/Sirius_login/tree/master)の右上にある緑色のCodeをクリックし、Download Zipでダウンロードして解凍
+githubのページ(https://github.com/aurl271/Sirius_login/tree/master )の右上にある緑色のCodeをクリックし、Download Zipでダウンロードして解凍
 ![github](images/github.png)
 ### 2.sesion.jsの編集
 解凍したフォルダにあるsession.jsの1行目の
