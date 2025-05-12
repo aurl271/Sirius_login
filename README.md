@@ -7,9 +7,9 @@ githubのページ(https://github.com/aurl271/Sirius_login )の右上にある�
 解凍したフォルダにあるsession.jsの1行目の` document.getElementById('identifier').value = "hogehoge";` のhogehogeをTUAT-ID(s~~v)に変更
 4行目の` document.getElementById('password').value = "fugafuga";`のfugafugaをパスワードに変更
 ### 3.拡張機能として追加
-メニューバーから「拡張機能を管理」をクリックし
+メニューバーから「拡張機能を管理」をクリック
 ![Extensions1](images/Extensions1.png)
-「パッケージ化されてない拡張機能を読み込む」からGithubからダウンロードしたフォルダ(session.jsとかが入っているフォルダ)を選択する
+「パッケージ化されてない拡張機能を読み込む」から解凍したフォルダ(session.jsとかが入っているフォルダ)を選択する
 ![Extensions2](images/Extensions2.png)
 ### 4.GmailAPIを使えるようにする
 **ワンタイムパスワードを受け取るアカウント**でhttps://console.cloud.google.com/welcome にアクセスして、「プロジェクトの選択」から「新しいプロジェクト」をクリック
