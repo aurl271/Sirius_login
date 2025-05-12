@@ -36,7 +36,6 @@ https://console.cloud.google.com/welcome に戻って、今作ったプロジェ
 ![Project14](images/Project14.png)
 ![Project15](images/Project15.png)
 「JSONをダウンロード」をクリックし、ダウンロードしたJSONを解凍したフォルダに移し、そこにあるmanifest.jsonの`"client_id": "～～.apps.googleusercontent.com"`の～～.apps.googleusercontent.comの部分を今ダウンロードしたJSONの`"Client_id":"～～.apps.googleusercontent.com"`の～～.apps.googleusercontent.comに書き換える
-![Project16](images/Project16.png)
 ## 注意点
 - 最初のログインをするときはGmailAPIを使えるようにするためにログインとアクセス許可の画面が表示されると思います。
 - session.js,second_factor.jsのsetTimeoutの第二引数の数値を変えればボタンを押すタイミングを変えることができます。(速すぎるとうまくいかなかったです)
